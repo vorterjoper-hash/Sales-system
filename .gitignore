@@ -1,0 +1,10 @@
+# Ignore Maven target folders
+target/
+# Ignore IDE configs
+*.iml
+.idea/
+.classpath
+.project
+.settings/
+# Logs
+*.log
