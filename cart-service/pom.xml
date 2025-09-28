@@ -7,11 +7,11 @@
 
     <!-- Change this for each service -->
     <groupId>com.example</groupId>
-    <artifactId>catalog-service</artifactId>
+    <artifactId>cart-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>catalog-service</name>
+    <name>cart-service</name>
     <description>Simple Spring Boot Catalog Service</description>
 
     <parent>
