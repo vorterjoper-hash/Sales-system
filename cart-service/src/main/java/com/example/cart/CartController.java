@@ -17,7 +17,7 @@ public class CartController {
     public String addToCart(@PathVariable String item) {
         cart.add(item);
 
-        String inventoryUrl = "http://inventory-service:8083/inventory/deduct/" + item;
+        String inventoryUrl = "http://inventory-service:8080/inventory/deduct/" + item;
         try {
             String inventoryResponse = restTemplate.postForObject(inventoryUrl, null, String.class);
             return "Added " + item + " to cart. Inventory says: " + inventoryResponse;
